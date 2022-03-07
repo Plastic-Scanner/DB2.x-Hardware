@@ -7,4 +7,9 @@
   (lib_symbols
   )
 
+
+  (text "TO DO:\nComplete analog front" (at 118.11 80.01 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid f9600ecc-2464-4d8f-b681-cfe2b4b65bb3)
+  )
 )

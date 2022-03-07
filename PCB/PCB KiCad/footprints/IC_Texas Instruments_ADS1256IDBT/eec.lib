@@ -1,0 +1,72 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments ADS1256IDBT
+#
+DEF ADS1256IDBT U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "ADS1256IDBT" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-ADS1256IDBT-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ADS1256&fileType=pdf" 0 500 50 H I L CNN 
+F4 "5.25" 0 600 50 H I L CNN "Analog Voltage AVDDMaxV"
+F5 "4.75" 0 700 50 H I L CNN "Analog Voltage AVDDMinV"
+F6 "Delta-Sigma" 0 800 50 H I L CNN "Architecture"
+F7 "MO-150" 0 900 50 H I L CNN "Code  JEDEC"
+F8 "Manufacturer URL" 0 1000 50 H I L CNN "Component Link 1 Description"
+F9 "http://www.ti.com/" 0 1100 50 H I L CNN "Component Link 1 URL"
+F10 "Package Specification" 0 1200 50 H I L CNN "Component Link 3 Description"
+F11 "http://www.ti.com/lit/ml/msso002e/msso002e.pdf" 0 1300 50 H I L CNN "Component Link 3 URL"
+F12 "SBAS288J" 0 1400 50 H I L CNN "Datasheet Version"
+F13 "3.6" 0 1500 50 H I L CNN "Digital SupplyMaxV"
+F14 "1.8" 0 1600 50 H I L CNN "Digital SupplyMinV"
+F15 "Serial SPI" 0 1700 50 H I L CNN "Interface"
+F16 "Surface Mount" 0 1800 50 H I L CNN "Mounting Technology"
+F17 "28-Pin Plastic Small Outline, Body 10.2 X 5.3 mm, Pitch 0.65 mm" 0 1900 50 H I L CNN "Package Description"
+F18 "4040065/E, 12/2001" 0 2000 50 H I L CNN "Package Version"
+F19 "24" 0 2100 50 H I L CNN "Resolution Bits"
+F20 "30k" 0 2200 50 H I L CNN "Sample Rate maxSPS"
+F21 "Precision ADC (<=10MSPS)" 0 2300 50 H I L CNN "Sub Family"
+F22 "8" 0 2400 50 H I L CNN "Input Channels"
+F23 "IC" 0 2500 50 H I L CNN "category"
+F24 "1032945" 0 2600 50 H I L CNN "ciiva ids"
+F25 "c759b8ce2832afe6" 0 2700 50 H I L CNN "library id"
+F26 "Texas Instruments" 0 2800 50 H I L CNN "manufacturer"
+F27 "DB28" 0 2900 50 H I L CNN "package"
+F28 "1386841293" 0 3000 50 H I L CNN "release date"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "3B469DCD-A5C2-4821-9377-BA283C97E484" 0 3200 50 H I L CNN "vault revision"
+F31 "yes" 0 3300 50 H I L CNN "imported"
+DRAW
+X AVDD 1 100 -1700 100 R 40 40 1 1 W 
+X AGND 2 1300 -1700 100 L 40 40 1 1 W 
+X VREFN 3 1300 -1200 100 L 40 40 1 1 I 
+X VREFP 4 1300 -1000 100 L 40 40 1 1 I 
+X AINCOM 5 1300 -800 100 L 40 40 1 1 I 
+X AIN0 6 1300 0 100 L 40 40 1 1 I 
+X AIN1 7 1300 -100 100 L 40 40 1 1 I 
+X AIN2 8 1300 -200 100 L 40 40 1 1 I 
+X AIN3 9 1300 -300 100 L 40 40 1 1 I 
+X AIN4 10 1300 -400 100 L 40 40 1 1 I 
+X AIN5 11 1300 -500 100 L 40 40 1 1 I 
+X AIN6 12 1300 -600 100 L 40 40 1 1 I 
+X AIN7 13 1300 -700 100 L 40 40 1 1 I 
+X ~SYNC~/~PDWN~ 14 100 -1200 100 R 40 40 1 1 I 
+X ~RESET~ 15 100 -1100 100 R 40 40 1 1 I 
+X DVDD 16 100 -1800 100 R 40 40 1 1 W 
+X DGND 17 1300 -1800 100 L 40 40 1 1 W 
+X XTAL2 18 100 -1500 100 R 40 40 1 1 P 
+X XTAL1/CLKIN 19 100 -1400 100 R 40 40 1 1 I C
+X ~CS~ 20 100 -800 100 R 40 40 1 1 I 
+X ~DRDY~ 21 100 -900 100 R 40 40 1 1 O 
+X DOUT 22 100 -700 100 R 40 40 1 1 U 
+X DIN 23 100 -600 100 R 40 40 1 1 I 
+X SCLK 24 100 -500 100 R 40 40 1 1 I C
+X D0/CLKOUT 25 100 0 100 R 40 40 1 1 B 
+X D1 26 100 -100 100 R 40 40 1 1 B 
+X D2 27 100 -200 100 R 40 40 1 1 B 
+X D3 28 100 -300 100 R 40 40 1 1 B 
+S 200 100 1200 -1900 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
