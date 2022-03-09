@@ -19,3 +19,4 @@ fp-info-cache
 
 # Backups
 *.zip
+*#auto_saved_files#*
