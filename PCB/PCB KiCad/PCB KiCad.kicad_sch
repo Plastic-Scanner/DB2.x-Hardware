@@ -540,7 +540,7 @@
       (reference "U4") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15/26e79053-515e-4a42-9ad7-f0cf0bc2aed6"
-      (reference "U5") (unit 1) (value "TLC59208FIPWR") (footprint "Texas_Instruments-TLC59208FIPWR-*")
+      (reference "U5") (unit 1) (value "TLC59208FIPWR") (footprint "TLC59208:Texas_Instruments-TLC59208FIPWR-Level_A")
     )
     (path "/a8dcb7a4-48cf-403e-b881-d44234291c62/335e80a0-1bcf-4981-944a-4c607a305a30"
       (reference "Y1") (unit 1) (value "7.68MHz") (footprint "Crystal:Crystal_HC49-U_Vertical")
