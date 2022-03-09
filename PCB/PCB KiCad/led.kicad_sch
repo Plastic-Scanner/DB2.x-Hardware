@@ -774,7 +774,11 @@
     (uuid ba8f8fdd-9d9b-4da3-8a50-cd20b42c9776)
   )
 
-  (hierarchical_label "I2C BUS" (shape input) (at 72.39 95.25 180)
+  (hierarchical_label "LED RESET" (shape input) (at 88.9 110.49 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 70315f3a-5e28-4a32-ad0c-2a2f749c19f3)
+  )
+  (hierarchical_label "I2C BUS" (shape bidirectional) (at 72.39 95.25 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid db96bab1-ab4f-40ab-a40a-68e3ea9dd80a)
   )
