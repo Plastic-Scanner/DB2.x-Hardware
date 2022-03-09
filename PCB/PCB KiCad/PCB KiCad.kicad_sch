@@ -417,7 +417,7 @@
       (reference "J2") (unit 1) (value "LED Debug") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/f3879066-a91b-415e-b241-18f9d05de4a2/9ceff023-2726-4b67-8946-24a6bc62bb67"
-      (reference "J3") (unit 1) (value "Qwiic") (footprint "")
+      (reference "J3") (unit 1) (value "Qwiic") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/98df1e87-3735-4cb9-8253-663f6eb2234f/2dcb6160-16f4-4616-9c10-2cc0608a1c39"
       (reference "R1") (unit 1) (value "240k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -522,13 +522,13 @@
       (reference "SW2") (unit 1) (value "TRIGGER") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
     )
     (path "/98df1e87-3735-4cb9-8253-663f6eb2234f/9cb96ba9-087d-4f98-9ea7-41cad54825f6"
-      (reference "U1") (unit 1) (value "OPA2376xxD") (footprint "")
+      (reference "U1") (unit 1) (value "OPA2376xxD") (footprint "eec:Texas_Instruments-OPA2376AID-Level_A")
     )
     (path "/98df1e87-3735-4cb9-8253-663f6eb2234f/ef9b7800-93b3-48ff-8716-677214474f76"
-      (reference "U1") (unit 2) (value "OPA2376xxD") (footprint "")
+      (reference "U1") (unit 2) (value "OPA2376xxD") (footprint "eec:Texas_Instruments-OPA2376AID-Level_A")
     )
     (path "/98df1e87-3735-4cb9-8253-663f6eb2234f/846afb09-5d58-4b58-926c-704fca252a43"
-      (reference "U1") (unit 3) (value "OPA2376xxD") (footprint "")
+      (reference "U1") (unit 3) (value "OPA2376xxD") (footprint "eec:Texas_Instruments-OPA2376AID-Level_A")
     )
     (path "/a8dcb7a4-48cf-403e-b881-d44234291c62/49c3a7d7-9453-4986-bcff-387f274073df"
       (reference "U2") (unit 1) (value "ADS1256IDBT") (footprint "ADS1256:Texas_Instruments-ADS1256IDBT-Level_A")
