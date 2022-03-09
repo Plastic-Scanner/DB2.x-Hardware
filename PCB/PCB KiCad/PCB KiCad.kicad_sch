@@ -516,10 +516,10 @@
       (reference "R32") (unit 1) (value "82") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f3879066-a91b-415e-b241-18f9d05de4a2/3b268a0c-2c7e-4464-bfbe-f32e2fc2a84c"
-      (reference "SW1") (unit 1) (value "MCU_RESET") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
+      (reference "SW1") (unit 1) (value "MCU_RESET") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/f3879066-a91b-415e-b241-18f9d05de4a2/7621086c-9e5c-4d01-a159-6ac8ec504518"
-      (reference "SW2") (unit 1) (value "TRIGGER") (footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm")
+      (reference "SW2") (unit 1) (value "TRIGGER") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/98df1e87-3735-4cb9-8253-663f6eb2234f/9cb96ba9-087d-4f98-9ea7-41cad54825f6"
       (reference "U1") (unit 1) (value "OPA2376xxD") (footprint "eec:Texas_Instruments-OPA2376AID-Level_A")
