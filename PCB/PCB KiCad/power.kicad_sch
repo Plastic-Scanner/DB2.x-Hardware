@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Development Board")
+    (date "2022-03-15")
+    (rev "2.1")
+    (company "Plastic Scanner")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)

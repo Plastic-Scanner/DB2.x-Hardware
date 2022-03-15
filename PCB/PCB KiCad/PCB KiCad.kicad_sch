@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Development Board")
+    (date "2022-03-15")
+    (rev "2.1")
+    (company "Plastic Scanner")
+  )
+
   (lib_symbols
   )
 

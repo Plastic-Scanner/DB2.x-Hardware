@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Development Board")
+    (date "2022-03-15")
+    (rev "2.1")
+    (company "Plastic Scanner")
+  )
+
   (lib_symbols
     (symbol "ADS1256:ADS1256IDBT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
