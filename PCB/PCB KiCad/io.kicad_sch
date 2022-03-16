@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3671bdaf-b501-4664-a83d-39af6270ff7f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Connectors" (at 172.72 113.03 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 7a72b93c-3741-48fd-ae44-ea5ed3a46699)
+  )
+  (text "TO DO:\nQWIIC\nLogic points\nButton connectos\nNets\n" (at 186.69 127 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 90c115b8-edb3-47a5-9825-86fc54d2bd51)
+  )
+)

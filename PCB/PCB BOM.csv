@@ -1,42 +1,38 @@
-ID,Name,Designator,Value,,Footprint,Quantity,Manufacturer,Link
-1,Arduino Uno,P1,,,n.a.,1,Arduino,https://www.digikey.nl/nl/products/detail/arduino/A000066/2784006
-2,2.5v reference voltage,U1,LM285D-2.5G,,SOIC-8,1,ON Semicon,https://www.digikey.nl/nl/products/detail/onsemi/LM285D-2-5G/13437135
-3,3.3v voltage regulator,U2,AMS1117-3.3_C426566,,SOT-223,1,STMicroelectronics,https://www.digikey.nl/nl/products/detail/stmicroelectronics/LDL1117S33R/7102071
-4,OpAmp,U3,OPA2376QDGKRQ1,,VSSOP-8,1,Texas Instruments,https://www.digikey.nl/nl/products/detail/texas-instruments/OPA2376QDGKRQ1/6098067
-5,ADC,U4,ADS1256IDBR,,SSOP-28,1,Texas Instruments,https://www.digikey.nl/nl/products/detail/texas-instruments/ADS1256IDBR/1689177
-6,LED driver,U5,TLC59208FIPWR,,TSSOP-16,1,Texas Instruments,https://www.digikey.nl/nl/products/detail/texas-instruments/TLC59208FIPWR/2353643
-7,Connector,EXTERNAL-DEVICE1,HDR-F-2.54_2x4,,HDR-F-TH-2.54-2x4,1,Adam Tech,https://www.digikey.nl/nl/products/detail/adam-tech/RS2-08-G/9832057
-8,Connector,LOGIC-ANALYZER1,MTF185-205SY3,,HDR-F-TH-2.54-2x5 (notch),1,Sullins Connector Solutions,https://www.digikey.nl/nl/products/detail/sullins-connector-solutions/SFH11-PBPC-D05-ST-BK/1990087
-9,Ferried bead,L1,0TF,,L0805,1,Taiyo Yuden,https://www.digikey.nl/nl/products/detail/taiyo-yuden/BK2125HS241-T/957809
-10,Crystal,X1,7.68,MHz,HC-49S,1,Citizen Finedevice Co Ltd,https://www.digikey.nl/nl/products/detail/citizen-finedevice-co-ltd/HC-49-U-S7680000ABJB/284204
-11,InGaAs sensor,PHOTODIODE,SD003-151-001,,1206,1,Advanced Photonix,https://www.digikey.nl/nl/products/detail/advanced-photonix/003-151-001/5222590
-12,Indicator LED,"LED1,LED2,LED3",,,0805,3,Wurth,https://www.digikey.nl/nl/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924
-13,Infrared LED,D1,855,nm,1206,1,Wurth,https://www.digikey.nl/nl/products/detail/w%C3%BCrth-elektronik/15412085A3060P/14554080
-14,Infrared LED,D2,940,nm,1206,1,SunLED,https://www.digikey.nl/nl/products/detail/sunled/XZTNI55W-3/4902105
-15,Infrared LED,D3,1050,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM5010-843-IR/5872628
-16,Infrared LED,D4,1200,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM0012-844-IR/13663020
-17,Infrared LED,D5,1300,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM0013-844-IR/13663042
-18,Infrared LED,D6,1450,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM6014-844-IR/13282619
-19,Infrared LED,D7,1550,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM5015-844-IR/13663050
-20,Infrared LED,D8,1650,nm,1206,1,Marktech Optoelectronics,https://www.digikey.nl/nl/products/detail/marktech-optoelectronics/MTSM5016-843-IR/5872631
-21,Resistor,"R15,R18,R22,R23,R24",0,ohm,0805,5,,
-22,Resistor,R33,6.8,ohm,0805,1,,
-23,Resistor,R4,25,ohm,0805,1,,
-24,Resistor,R32,36,ohm,0805,1,,
-25,Resistor,R31,39,ohm,0805,1,,
-26,Resistor,"R26,R27,R28,R29,R30",43,ohm,0805,5,,
-27,Resistor,"R9,R10",49.9,ohm,0805,2,,
-28,Resistor,R2,65,ohm,0805,1,,
-29,Resistor,"R8,R13,R14,R16,R17,R19",100,ohm,0805,6,,
-30,Resistor,R3,150,ohm,0805,1,,
-31,Resistor,"R11,R12",301,ohm,0805,2,,
-32,Resistor,"R1,R7,R25",1,kilo ohm,0805,3,,
-33,Resistor,"R20,R21",10,kilo ohm,0805,2,,
-34,Resistor,"R6,R5",240,kilo ohm,0805,2,,
-35,Capacitor,"C17,C18",18,pico farad,0805,2,,
-36,Capacitor,"C8,C9",51,pico farad,0805,2,,
-37,Capacitor,"C15,C16",100,pico farad,0805,2,,
-38,Capacitor,C13,47,nano farad,0805,1,,
-39,Capacitor,"C3,C4,C5,C7,C10,C14,C11,C19",100,nano farad,0805,8,,
-40,Capacitor,C1,10,micro farad,0805,1,,
-41,Capacitor,"C2,C6,C12",22,micro farad,0805,3,,
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D5,D10,D9,D6,D7,D4,D11,D8";"LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder";8;"LED";;;
+2;"R25";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"56";;;
+3;"R3,R4";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"301";;;
+4;"C14,C7,C13,C1,C15,C17";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";6;"100n";;;
+5;"C5,C8";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"100p";;;
+6;"D1";"D_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"0090-3111-185";;;
+7;"C12,C6,C16";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"22u";;;
+8;"J2";"PinHeader_1x04_P2.54mm_Vertical";1;"LED Debug";;;
+9;"R18,R8,R19,R7";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"10k";;;
+10;"R27";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"70";;;
+11;"R12,R16,R15,R10,R9,R14";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";6;"100";;;
+12;"C9,C10";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"18p";;;
+13;"R22,R11,R13,R23,R21";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";5;"0";;;
+14;"R31,R29,R30,R28";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"75";;;
+15;"R20,R24";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"1k";;;
+16;"J1";"PinHeader_1x08_P2.54mm_Vertical";1;"ADC Debug";;;
+17;"R26";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"62";;;
+18;"A1";"Arduino_UNO_R3";1;"Arduino_UNO_R3";;;
+19;"C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"47n";;;
+20;"R5,R6";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"49.9";;;
+21;"FB1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"FerriteBead";;;
+22;"U5";"Texas_Instruments-TLC59208FIPWR-Level_A";1;"TLC59208FIPWR";;;
+23;"C11";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"10u";;;
+24;"SW1";"SW_PUSH_6mm";1;"TRIGGER";;;
+25;"U4";"SOT-223-3_TabPin2";1;"AMS1117-3.3";;;
+26;"J3";"JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal";1;"Qwiic";;;
+27;"R32,R17";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"82";;;
+28;"Y1";"Crystal_HC49-U_Vertical";1;"7.68MHz";;;
+29;"R1,R2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"240k";;;
+30;"U1";"Texas_Instruments-OPA2376AID-Level_A";1;"OPA2376xxD";;;
+31;"U3";"SOIC-8_3.9x4.9mm_P1.27mm";1;"LM285D-2.5";;;
+32;"U2";"Texas_Instruments-ADS1256IDBT-Level_A";1;"ADS1256IDBT";;;
+33;"C3,C2";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"51p";;;
+34;"REF**";"front_silk";1;"front_silk";;;
+35;"D3";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED RED";;;
+36;"D2";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED BLUE";;;
+37;"SW2";"SW_PUSH_6mm";1;"MCU_RESET";;;

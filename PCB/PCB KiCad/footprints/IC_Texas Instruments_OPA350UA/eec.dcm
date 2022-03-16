@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA350UA
+D OPA350UA
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA350&fileType=pdf
+$ENDCMP
+# end doc library

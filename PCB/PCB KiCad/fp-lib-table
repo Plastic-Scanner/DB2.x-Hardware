@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "DB2-lib")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
+  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/footprints/IC_Texas Instruments_OPA2376AID/eec.pretty")(options "")(descr ""))
+)

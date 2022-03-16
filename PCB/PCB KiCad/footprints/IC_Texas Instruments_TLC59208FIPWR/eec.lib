@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TLC59208FIPWR
+#
+DEF TLC59208FIPWR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "TLC59208FIPWR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-TLC59208FIPWR-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLC59208F&fileType=pdf" 0 500 50 H I L CNN 
+F4 "MO-153" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.ti.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.ti.com/lit/ml/mpds361/mpds361.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "SCLS715" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "0.05" 0 1200 50 H I L CNN "Iout Max A"
+F11 "Surface Mount" 0 1300 50 H I L CNN "Mounting Technology"
+F12 "16-Pin Plastic Small Outline, Body 4.40 x 5.00 mm, Pitch 0.65 mm" 0 1400 50 H I L CNN "Package Description"
+F13 "4040064-4/G" 0 1500 50 H I L CNN "Package Version"
+F14 "LED Driver" 0 1600 50 H I L CNN "Sub Family"
+F15 "5.5" 0 1700 50 H I L CNN "Vin Max V"
+F16 "3" 0 1800 50 H I L CNN "Vin Min V"
+F17 "IC" 0 1900 50 H I L CNN "category"
+F18 "1426985" 0 2000 50 H I L CNN "ciiva ids"
+F19 "9bf7f104929dd8ed" 0 2100 50 H I L CNN "library id"
+F20 "Texas Instruments" 0 2200 50 H I L CNN "manufacturer"
+F21 "PW0016A" 0 2300 50 H I L CNN "package"
+F22 "1464576871" 0 2400 50 H I L CNN "release date"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "C0AC1098-4EF5-4502-9510-91D6A29A40EB" 0 2600 50 H I L CNN "vault revision"
+F25 "yes" 0 2700 50 H I L CNN "imported"
+DRAW
+X A0 1 100 -200 100 R 40 40 1 1 I 
+X A1 2 100 -300 100 R 40 40 1 1 I 
+X A2 3 100 -400 100 R 40 40 1 1 I 
+X ~OUT0~ 4 1100 0 100 L 40 40 1 1 C 
+X ~OUT1~ 5 1100 -100 100 L 40 40 1 1 C 
+X ~OUT2~ 6 1100 -200 100 L 40 40 1 1 C 
+X ~OUT3~ 7 1100 -300 100 L 40 40 1 1 C 
+X GND 8 1100 -900 100 L 40 40 1 1 W 
+X ~OUT4~ 9 1100 -400 100 L 40 40 1 1 C 
+X ~OUT5~ 10 1100 -500 100 L 40 40 1 1 C 
+X ~OUT6~ 11 1100 -600 100 L 40 40 1 1 C 
+X ~OUT7~ 12 1100 -700 100 L 40 40 1 1 C 
+X ~RESET~ 13 100 -700 100 R 40 40 1 1 I 
+X SCL 14 100 0 100 R 40 40 1 1 I C
+X SDA 15 100 -100 100 R 40 40 1 1 B 
+X VCC 16 100 -900 100 R 40 40 1 1 W 
+S 200 100 1000 -1000 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
