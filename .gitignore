@@ -18,6 +18,5 @@ fp-info-cache
 *.ses
 
 # Backups
-*.zip
 *#auto_saved_files#*
 *-backups
