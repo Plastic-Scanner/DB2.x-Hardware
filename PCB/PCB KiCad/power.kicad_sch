@@ -952,7 +952,7 @@
     (property "Reference" "C15" (id 0) (at 177.8 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10" (id 1) (at 177.8 68.5799 0)
+    (property "Value" "10u" (id 1) (at 177.8 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 174.9552 71.12 0)
