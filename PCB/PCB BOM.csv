@@ -1,38 +1,133 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"D5,D10,D9,D6,D7,D4,D11,D8";"LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder";8;"LED";;;
-2;"R25";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"56";;;
-3;"R3,R4";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"301";;;
-4;"C14,C7,C13,C1,C15,C17";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";6;"100n";;;
-5;"C5,C8";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"100p";;;
-6;"D1";"D_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"0090-3111-185";;;
-7;"C12,C6,C16";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"22u";;;
-8;"J2";"PinHeader_1x04_P2.54mm_Vertical";1;"LED Debug";;;
-9;"R18,R8,R19,R7";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"10k";;;
-10;"R27";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"70";;;
-11;"R12,R16,R15,R10,R9,R14";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";6;"100";;;
-12;"C9,C10";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"18p";;;
-13;"R22,R11,R13,R23,R21";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";5;"0";;;
-14;"R31,R29,R30,R28";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"75";;;
-15;"R20,R24";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"1k";;;
-16;"J1";"PinHeader_1x08_P2.54mm_Vertical";1;"ADC Debug";;;
-17;"R26";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"62";;;
-18;"A1";"Arduino_UNO_R3";1;"Arduino_UNO_R3";;;
-19;"C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"47n";;;
-20;"R5,R6";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"49.9";;;
-21;"FB1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"FerriteBead";;;
-22;"U5";"Texas_Instruments-TLC59208FIPWR-Level_A";1;"TLC59208FIPWR";;;
-23;"C11";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"10u";;;
-24;"SW1";"SW_PUSH_6mm";1;"TRIGGER";;;
-25;"U4";"SOT-223-3_TabPin2";1;"AMS1117-3.3";;;
-26;"J3";"JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal";1;"Qwiic";;;
-27;"R32,R17";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"82";;;
-28;"Y1";"Crystal_HC49-U_Vertical";1;"7.68MHz";;;
-29;"R1,R2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"240k";;;
-30;"U1";"Texas_Instruments-OPA2376AID-Level_A";1;"OPA2376xxD";;;
-31;"U3";"SOIC-8_3.9x4.9mm_P1.27mm";1;"LM285D-2.5";;;
-32;"U2";"Texas_Instruments-ADS1256IDBT-Level_A";1;"ADS1256IDBT";;;
-33;"C3,C2";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"51p";;;
-34;"REF**";"front_silk";1;"front_silk";;;
-35;"D3";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED RED";;;
-36;"D2";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED BLUE";;;
-37;"SW2";"SW_PUSH_6mm";1;"MCU_RESET";;;
+"Source:","C:\Users\Jerry\Nextcloud\Projects\Plastic Sense PT2\DB2.0-Hardware\DB2.0-Hardware\PCB\PCB KiCad\PCB KiCad.kicad_sch"
+"Date:","18-5-2022 16:16:51"
+"Tool:","Eeschema (6.0.1)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","74"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Analog Voltage AVDDMaxV","Analog Voltage AVDDMinV","Architecture","Code  JEDEC","Component Link 1 Description","Component Link 1 URL","Component Link 3 Description","Component Link 3 URL","Datasheet Version","Digital SupplyMaxV","Digital SupplyMinV","Humanlabel","Input Channels","Interface","Iout Max A","Mounting Technology","Package Description","Package Version","Resolution Bits","Sample Rate maxSPS","Sub Family","Vin Max V","Vin Min V","category","ciiva ids","imported","library id","manufacturer","package","release date","rohs","vault revision"
+"","","A1","Arduino_UNO_R3","MCU_Module:Arduino_UNO_R3","Module:Arduino_UNO_R3","https://www.arduino.cc/en/Main/arduinoBoardUno","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C1","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C2","51p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C3","51p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C4","47n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C5","100p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C6","22u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C7","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C8","100p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C9","18p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C10","18p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C11","10u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C12","22u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C13","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C14","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C15","10u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C16","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C17","22u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","C18","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D1","0090-3111-185","Device:D_Photo","Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~","","","","","","","","","","","","PHOTODIODE","","","","","","","","","","","","","","","","","","","",""
+"","","D2","LED BLUE","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D3","LED RED","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D4","855nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://nl.rs-online.com/web/p/ir-leds/1736298/","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D5","940nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://nl.rs-online.com/web/p/ir-leds/1736348","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D6","1050nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM5010-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D7","1200nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM0012-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D8","1300nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/DataSheet/MTSM0013-844-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D9","1460nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/datasheet/MTSM6014-844-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D10","1550nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/DataSheet/MTSM5015-844-IR,.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","D11","1650nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM5016-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","FB1","FerriteBead","Device:FerriteBead","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","J1","ADC Debug","Connector_Generic:Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","J2","LED Debug","Connector_Generic:Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","J3","Qwiic","Connector_Generic:Conn_01x04","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R1","240k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R2","240k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R3","301","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R4","301","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R5","49.9","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R6","49.9","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R7","10k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R8","10k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R9","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R10","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R11","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R12","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R13","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R14","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R15","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R16","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R17","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R18","10k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R19","10k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R20","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R21","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R22","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R23","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R24","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R25","52","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R26","200","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R27","150","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R28","220","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R29","240","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R30","150","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R31","150","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","R32","40","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","SW1","MCU_RESET","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","SW2","TRIGGER","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","U1","OPA2376xxD","Amplifier_Operational:OPA2376xxD","eec:Texas_Instruments-OPA2376AID-Level_A","http://www.ti.com/lit/ds/symlink/opa376.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","U2","ADS1256IDBT","ADS1256:ADS1256IDBT","ADS1256:Texas_Instruments-ADS1256IDBT-Level_A","http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ADS1256&fileType=pdf","5.25","4.75","Delta-Sigma","MO-150","Manufacturer URL","http://www.ti.com/","Package Specification","http://www.ti.com/lit/ml/msso002e/msso002e.pdf","SBAS288J","3.6","1.8","","8","Serial SPI","","Surface Mount","28-Pin Plastic Small Outline, Body 10.2 X 5.3 mm, Pitch 0.65 mm","4040065/E, 12/2001","24","30k","Precision ADC (<=10MSPS)","","","IC","1032945","yes","c759b8ce2832afe6","Texas Instruments","DB28","1386841293","Yes","3B469DCD-A5C2-4821-9377-BA283C97E484"
+"","","U3","LM285D-2.5","Reference_Voltage:LM285D-2.5","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","U4","AMS1117-3.3","Regulator_Linear:AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"","","U5","TLC59208FIPWR","TLC59208:TLC59208FIPWR","TLC59208:Texas_Instruments-TLC59208FIPWR-Level_A","http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLC59208F&fileType=pdf","","","","MO-153","Manufacturer URL","http://www.ti.com/","Package Specification","http://www.ti.com/lit/ml/mpds361/mpds361.pdf","SCLS715","","","","","","0.05","Surface Mount","16-Pin Plastic Small Outline, Body 4.40 x 5.00 mm, Pitch 0.65 mm","4040064-4/G","","","LED Driver","5.5","3","IC","1426985","yes","9bf7f104929dd8ed","Texas Instruments","PW0016A","1464576871","Yes","C0AC1098-4EF5-4502-9510-91D6A29A40EB"
+"","","Y1","7.68MHz","Device:Crystal","Crystal:Crystal_HC49-U_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Analog Voltage AVDDMaxV","Analog Voltage AVDDMinV","Architecture","Code  JEDEC","Component Link 1 Description","Component Link 1 URL","Component Link 3 Description","Component Link 3 URL","Datasheet Version","Digital SupplyMaxV","Digital SupplyMinV","Humanlabel","Input Channels","Interface","Iout Max A","Mounting Technology","Package Description","Package Version","Resolution Bits","Sample Rate maxSPS","Sub Family","Vin Max V","Vin Min V","category","ciiva ids","imported","library id","manufacturer","package","release date","rohs","vault revision"
+"1","1","A1","Arduino_UNO_R3","MCU_Module:Arduino_UNO_R3","Module:Arduino_UNO_R3","https://www.arduino.cc/en/Main/arduinoBoardUno","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2","6","C1, C7, C13, C14, C16, C18","100n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3","2","C2, C3","51p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4","1","C4","47n","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"5","2","C5, C8","100p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"6","3","C6, C12, C17","22u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"7","2","C9, C10","18p","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"8","2","C11, C15","10u","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"9","1","D1","0090-3111-185","Device:D_Photo","Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~","","","","","","","","","","","","PHOTODIODE","","","","","","","","","","","","","","","","","","","",""
+"10","1","D2","LED BLUE","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"11","1","D3","LED RED","Device:LED","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"12","1","D4","855nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://nl.rs-online.com/web/p/ir-leds/1736298/","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"13","1","D5","940nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://nl.rs-online.com/web/p/ir-leds/1736348","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"14","1","D6","1050nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM5010-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"15","1","D7","1200nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM0012-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"16","1","D8","1300nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/DataSheet/MTSM0013-844-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"17","1","D9","1460nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/datasheet/MTSM6014-844-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"18","1","D10","1550nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://marktechopto.com/pdf/products/DataSheet/MTSM5015-844-IR,.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"19","1","D11","1650nm","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.marktechopto.com/pdf/products/datasheet/MTSM5016-843-IR.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"20","1","FB1","FerriteBead","Device:FerriteBead","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"21","1","J1","ADC Debug","Connector_Generic:Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"22","1","J2","LED Debug","Connector_Generic:Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"23","1","J3","Qwiic","Connector_Generic:Conn_01x04","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"24","2","R1, R2","240k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"25","2","R3, R4","301","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"26","2","R5, R6","49.9","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"27","4","R7, R8, R18, R19","10k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"28","7","R9, R10, R12, R14, R15, R16, R17","100","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"29","5","R11, R13, R21, R22, R23","0","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"30","2","R20, R24","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"31","1","R25","52","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"32","1","R26","200","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"33","3","R27, R30, R31","150","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"34","1","R28","220","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"35","1","R29","240","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"36","1","R32","40","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"37","1","SW1","MCU_RESET","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"38","1","SW2","TRIGGER","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"39","1","U1","OPA2376xxD","Amplifier_Operational:OPA2376xxD","eec:Texas_Instruments-OPA2376AID-Level_A","http://www.ti.com/lit/ds/symlink/opa376.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"40","1","U2","ADS1256IDBT","ADS1256:ADS1256IDBT","ADS1256:Texas_Instruments-ADS1256IDBT-Level_A","http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ADS1256&fileType=pdf","5.25","4.75","Delta-Sigma","MO-150","Manufacturer URL","http://www.ti.com/","Package Specification","http://www.ti.com/lit/ml/msso002e/msso002e.pdf","SBAS288J","3.6","1.8","","8","Serial SPI","","Surface Mount","28-Pin Plastic Small Outline, Body 10.2 X 5.3 mm, Pitch 0.65 mm","4040065/E, 12/2001","24","30k","Precision ADC (<=10MSPS)","","","IC","1032945","yes","c759b8ce2832afe6","Texas Instruments","DB28","1386841293","Yes","3B469DCD-A5C2-4821-9377-BA283C97E484"
+"41","1","U3","LM285D-2.5","Reference_Voltage:LM285D-2.5","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"42","1","U4","AMS1117-3.3","Regulator_Linear:AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"43","1","U5","TLC59208FIPWR","TLC59208:TLC59208FIPWR","TLC59208:Texas_Instruments-TLC59208FIPWR-Level_A","http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLC59208F&fileType=pdf","","","","MO-153","Manufacturer URL","http://www.ti.com/","Package Specification","http://www.ti.com/lit/ml/mpds361/mpds361.pdf","SCLS715","","","","","","0.05","Surface Mount","16-Pin Plastic Small Outline, Body 4.40 x 5.00 mm, Pitch 0.65 mm","4040064-4/G","","","LED Driver","5.5","3","IC","1426985","yes","9bf7f104929dd8ed","Texas Instruments","PW0016A","1464576871","Yes","C0AC1098-4EF5-4502-9510-91D6A29A40EB"
+"44","1","Y1","7.68MHz","Device:Crystal","Crystal:Crystal_HC49-U_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
