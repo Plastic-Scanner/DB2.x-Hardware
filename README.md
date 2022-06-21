@@ -8,6 +8,6 @@ This is still an early development prototype. We recommend all makers, hackers a
 Hi and welcome to the hardware package of the Development Board 2.x
 this repository is meant to host files and have releases. 
 
-Learn more about the development board by visiting our [documentation page](https://docs.plasticscanner.com/DB2.0).  
+Learn more about the development board by visiting our [documentation page](https://docs.plasticscanner.com/boards/DB2.1).  
 <!-- Find the firmware for the development board [here](https://github.com/Plastic-Scanner/DB2.0-Firmware) -->
 
