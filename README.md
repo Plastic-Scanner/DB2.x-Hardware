@@ -11,3 +11,5 @@ this repository is meant to host files and have releases.
 Learn more about the development board by visiting our [documentation page](https://docs.plasticscanner.com/boards/DB2.1).  
 <!-- Find the firmware for the development board [here](https://github.com/Plastic-Scanner/DB2.0-Firmware) -->
 
+
+<img src="Media/PS-license.svg" alt="license" width="300"/>
