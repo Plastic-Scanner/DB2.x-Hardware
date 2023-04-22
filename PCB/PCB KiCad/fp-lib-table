@@ -1,4 +1,7 @@
 (fp_lib_table
-  (lib (name "DB2-lib")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
-  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/footprints/IC_Texas Instruments_OPA2376AID/eec.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "IC_Nuvoton_NAU7802SGI")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Nuvoton_NAU7802SGI/eec.pretty")(options "")(descr ""))
+  (lib (name "OPA2376AID")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/OPA2376AID")(options "")(descr ""))
+  (lib (name "TLC59108")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59108FIPWR/eec.pretty")(options "")(descr ""))
+  (lib (name "TLC59208")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59208FIPWR/eec.pretty")(options "")(descr ""))
 )

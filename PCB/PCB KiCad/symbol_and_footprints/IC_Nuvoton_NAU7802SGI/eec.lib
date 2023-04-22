@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Nuvoton NAU7802SGI
+#
+DEF NAU7802SGI U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "NAU7802SGI" 0 300 50 H V L CNN 
+F2 "Nuvoton-NAU7802SGI-0-0-*" 0 400 50 H I L CNN 
+F3 "http://www.nuvoton.com/resource-files/NAU7802%20Data%20Sheet%20V1.7.pdf" 0 500 50 H I L CNN 
+F4 "+85°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "IC" 0 800 50 H I L CNN "category"
+F7 "Bipolar" 0 900 50 H I L CNN "data polarity"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Data Converter ICs" 0 1100 50 H I L CNN "device class L2"
+F10 "Analog to Digital Converters (ADCs)" 0 1200 50 H I L CNN "device class L3"
+F11 "IC ADC 24BIT I2C/SRL 16-SOP" 0 1300 50 H I L CNN "digikey description"
+F12 "NAU7802SGI-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "1.75mm" 0 1500 50 H I L CNN "height"
+F14 "I2C,2-Wire" 0 1600 50 H I L CNN "interface"
+F15 "SOIC127P600X155-16" 0 1700 50 H I L CNN "ipc land pattern name"
+F16 "yes" 0 1800 50 H I L CNN "lead free"
+F17 "633e3c39f43f75df" 0 1900 50 H I L CNN "library id"
+F18 "Nuvoton" 0 2000 50 H I L CNN "manufacturer"
+F19 "5.5V" 0 2100 50 H I L CNN "max supply voltage"
+F20 "2.7V" 0 2200 50 H I L CNN "min supply voltage"
+F21 "2-2.1mA" 0 2300 50 H I L CNN "nominal supply current"
+F22 "2" 0 2400 50 H I L CNN "number of channels"
+F23 "2" 0 2500 50 H I L CNN "number of converters"
+F24 "SOP16" 0 2600 50 H I L CNN "package"
+F25 "24b" 0 2700 50 H I L CNN "resolution"
+F26 "yes" 0 2800 50 H I L CNN "rohs"
+F27 "320bps" 0 2900 50 H I L CNN "sampling rate"
+F28 "0.1mm" 0 3000 50 H I L CNN "standoff height"
+F29 "+85°C" 0 3100 50 H I L CNN "temperature range high"
+F30 "-40°C" 0 3200 50 H I L CNN "temperature range low"
+DRAW
+X AVDD/LDO 16 100 0 100 R 40 40 1 1 W 
+X DVDD 15 100 -100 100 R 40 40 1 1 W 
+X VIN1N 2 100 -700 100 R 40 40 1 1 I 
+X VIN1P 3 100 -600 100 R 40 40 1 1 I 
+X VIN2N 4 100 -1000 100 R 40 40 1 1 I 
+X VIN2P 5 100 -900 100 R 40 40 1 1 I 
+X DRDY 12 1300 -200 100 L 40 40 1 1 O 
+X REFN 7 100 -400 100 R 40 40 1 1 I 
+X REFP 1 100 -300 100 R 40 40 1 1 I 
+X SCLK 13 1300 -400 100 L 40 40 1 1 I C
+X SDIO 14 1300 -500 100 L 40 40 1 1 B 
+X VBG 6 1300 0 100 L 40 40 1 1 O 
+X XIN 10 1300 -700 100 L 40 40 1 1 I 
+X XOUT 11 1300 -800 100 L 40 40 1 1 O 
+X AVSS 8 1300 -1000 100 L 40 40 1 1 W 
+X DVSS 9 1300 -1100 100 L 40 40 1 1 W 
+S 200 100 1200 -1200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

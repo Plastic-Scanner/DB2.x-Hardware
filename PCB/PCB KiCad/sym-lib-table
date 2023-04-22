@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NAU7802")(type "Legacy")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Nuvoton_NAU7802SGI/eec.lib")(options "")(descr ""))
+  (lib (name "OPA2376AID")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/OPA2376AID/OPA2376AID.kicad_sym")(options "")(descr ""))
+  (lib (name "TLC59108")(type "Legacy")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59108FIPWR/eec.lib")(options "")(descr ""))
+  (lib (name "TLC59208")(type "Legacy")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59208FIPWR/eec.lib")(options "")(descr ""))
+)
