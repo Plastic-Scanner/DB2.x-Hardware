@@ -1,0 +1,82 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments OPA2376AID
+#
+DEF OPA2376AID U 0 40 Y Y 2 L N
+F0 "U" 0 300 50 H V L CNN 
+F1 "OPA2376AID" 0 400 50 H V L CNN 
+F2 "Texas_Instruments-OPA2376AID-*" 0 500 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA2376&fileType=pdf" 0 600 50 H I L CNN 
+F4 "76" 0 700 50 H I L CNN "CMRR Mind B"
+F5 "" 0 800 50 H I L CNN "Channel"
+F6 "MS-012" 0 900 50 H I L CNN "Code  JEDEC"
+F7 "Manufacturer URL" 0 1000 50 H I L CNN "Component Link 1 Description"
+F8 "http://www.ti.com/" 0 1100 50 H I L CNN "Component Link 1 URL"
+F9 "Package Specification" 0 1200 50 H I L CNN "Component Link 3 Description"
+F10 "http://www.ti.com/litv/pdf/msoi002j" 0 1300 50 H I L CNN "Component Link 3 URL"
+F11 "SBOS406F" 0 1400 50 H I L CNN "Datasheet Version"
+F12 "Green (RoHS & no Sb/Br)" 0 1500 50 H I L CNN "Eco  Plan"
+F13 "" 0 1600 50 H I L CNN "GBW Typ MHz"
+F14 "" 0 1700 50 H I L CNN "Gain Bandwidth"
+F15 "10" 0 1800 50 H I L CNN "IIB Maxp A"
+F16 "0.95" 0 1900 50 H I L CNN "Iq per channelMaxmA"
+F17 "Surface Mount" 0 2000 50 H I L CNN "Mounting Technology"
+F18 "2" 0 2100 50 H I L CNN "Number of Channels"
+F19 "0.32" 0 2200 50 H I L CNN "Offset DriftTypuVC"
+F20 "8-Pin Plastic Small Outline, Body 4.9 x 3.9 mm, Pitch 1.27 mm" 0 2300 50 H I L CNN "Package Description"
+F21 "4040047-3/M, 06/2011" 0 2400 50 H I L CNN "Package Version"
+F22 "" 0 2500 50 H I L CNN "Packing"
+F23 "" 0 2600 50 H I L CNN "Rating"
+F24 "" 0 2700 50 H I L CNN "Slew Rate"
+F25 "2" 0 2800 50 H I L CNN "Slew RateTypVus"
+F26 "Low Input Bias Current Amp (<=10pA), Low Noise Amp (<=10nV/rtHz), Low Offset Voltage Amplifier (<=500uV), Low Supply Voltage Amplifier (<=2.7V), Precision Amplifier" 0 2900 50 H I L CNN "Sub Family"
+F27 "" 0 3000 50 H I L CNN "Supply Voltage Max"
+F28 "" 0 3100 50 H I L CNN "Supply Voltage Min"
+F29 "" 0 3200 50 H I L CNN "Temperature Max"
+F30 "" 0 3300 50 H I L CNN "Temperature Min"
+F31 "5.5" 0 3400 50 H I L CNN "Total Supply VoltageMax5V is 5  5V is 10"
+F32 "2" 0 3500 50 H I L CNN "Total Supply VoltageMin5V is 5  5V is 10"
+F33 "0.025" 0 3600 50 H I L CNN "Vio 25CMaxmV"
+F34 "" 0 3700 50 H I L CNN "Vmax V"
+F35 "" 0 3800 50 H I L CNN "Vmin V"
+F36 "7.5" 0 3900 50 H I L CNN "Vn at 1kHzTypnVrtHz"
+F37 "IC" 0 4000 50 H I L CNN "category"
+F38 "1322074" 0 4100 50 H I L CNN "ciiva ids"
+F39 "3a9e315a78752ae2" 0 4200 50 H I L CNN "library id"
+F40 "Texas Instruments" 0 4300 50 H I L CNN "manufacturer"
+F41 "D0008A" 0 4400 50 H I L CNN "package"
+F42 "1464311603" 0 4500 50 H I L CNN "release date"
+F43 "FEA59DAD-AD4C-43EB-B076-8A341EB377D0" 0 4600 50 H I L CNN "vault revision"
+F44 "yes" 0 4700 50 H I L CNN "imported"
+DRAW
+X OUT A 1 700 -100 100 L 40 0 1 1 O 
+X IN A+ 3 100 -200 100 R 40 0 1 1 I 
+X IN A- 2 100 0 100 R 40 0 1 1 I 
+X V- 4 400 -400 100 U 40 0 1 1 W 
+X V+ 8 400 200 100 D 40 0 1 1 W 
+P 2 1 1 0 200 100 600 -100 N
+P 2 1 1 0 200 -300 600 -100 N
+P 2 1 1 0 200 100 200 -300 N
+P 2 1 1 0 400 -200 400 -300 N
+P 2 1 1 0 240 0 300 0 N
+P 2 1 1 0 240 -200 300 -200 N
+P 2 1 1 0 270 -170 270 -230 N
+P 2 1 1 0 400 100 400 0 N
+X OUT B 7 700 -100 100 L 40 0 2 1 O 
+X IN B+ 5 100 -200 100 R 40 0 2 1 I 
+X IN B- 6 100 0 100 R 40 0 2 1 I 
+X V- 4 400 -400 100 U 40 0 2 1 W 
+X V+ 8 400 200 100 D 40 0 2 1 W 
+P 2 2 1 0 200 100 600 -100 N
+P 2 2 1 0 200 -300 600 -100 N
+P 2 2 1 0 200 100 200 -300 N
+P 2 2 1 0 400 -200 400 -300 N
+P 2 2 1 0 240 0 300 0 N
+P 2 2 1 0 240 -200 300 -200 N
+P 2 2 1 0 270 -170 270 -230 N
+P 2 2 1 0 400 100 400 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library

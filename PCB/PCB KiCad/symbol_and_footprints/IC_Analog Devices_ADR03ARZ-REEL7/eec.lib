@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices ADR03ARZ-REEL7
+#
+DEF ADR03ARZ-REEL7 U 0 40 Y Y 2 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "ADR03ARZ-REEL7" 0 300 50 H V L CNN 
+F2 "Analog_Devices-ADR03ARZ-REEL7-*" 0 400 50 H I L CNN 
+F3 "http://www.analog.com/static/imported-files/data_sheets/ADR01_02_03_06.pdf" 0 500 50 H I L CNN 
+F4 "MS-012-AA" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "URL Link1" 0 1100 50 H I L CNN "Component Link 4 Description"
+F10 "Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/adr03/products/product.html" 0 1200 50 H I L CNN "Component Link 4 URL"
+F11 "Rev. R" 0 1300 50 H I L CNN "Datasheet Version"
+F12 "36" 0 1400 50 H I L CNN "Max V Supply V"
+F13 "4.5" 0 1500 50 H I L CNN "Min V Supply V"
+F14 "Surface Mount" 0 1600 50 H I L CNN "Mounting Technology"
+F15 "-40 to 125 degC" 0 1700 50 H I L CNN "Operating Temp Range"
+F16 "8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm" 0 1800 50 H I L CNN "Package Description"
+F17 "060506-A, 06/2006" 0 1900 50 H I L CNN "Package Version"
+F18 "Reel" 0 2000 50 H I L CNN "Packing"
+F19 "3" 0 2100 50 H I L CNN "Ref Out TC ppmC"
+F20 "2.5V" 0 2200 50 H I L CNN "Vout"
+F21 "IC" 0 2300 50 H I L CNN "category"
+F22 "1470848" 0 2400 50 H I L CNN "ciiva ids"
+F23 "b11cb0db29637909" 0 2500 50 H I L CNN "library id"
+F24 "Analog Devices" 0 2600 50 H I L CNN "manufacturer"
+F25 "R-8" 0 2700 50 H I L CNN "package"
+F26 "1391076165" 0 2800 50 H I L CNN "release date"
+F27 "FBDB77E4-901D-425F-A673-07A09728BF87" 0 2900 50 H I L CNN "vault revision"
+F28 "yes" 0 3000 50 H I L CNN "imported"
+DRAW
+X VIN 2 100 0 100 R 40 40 1 1 W 
+X TEMP 3 100 -200 100 R 40 40 1 1 O 
+X GND 4 600 -500 100 U 40 40 1 1 W 
+X TRIM 5 1100 -200 100 L 40 40 1 1 I 
+X VOUT 6 1100 0 100 L 40 40 1 1 W 
+S 200 100 1000 -400 1 1 0 f
+X NC 1 -100 0 100 L 40 40 2 1 P 
+X NC 7 -100 -100 100 L 40 40 2 1 P 
+X NC 8 -100 -200 100 L 40 40 2 1 P 
+S -500 100 -200 -300 2 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

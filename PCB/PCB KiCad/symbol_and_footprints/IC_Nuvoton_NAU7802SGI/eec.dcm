@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NAU7802SGI
+D NAU7802SGI
+F http://www.nuvoton.com/resource-files/NAU7802%20Data%20Sheet%20V1.7.pdf
+$ENDCMP
+# end doc library
