@@ -496,9 +496,7 @@
     )
   )
 
-  (junction (at 89.535 111.76) (diameter 0) (color 0 0 0 0)
-    (uuid 15a8394c-7136-48ab-ab2b-b736bfaf630b)
-  )
+
   (junction (at 258.445 109.22) (diameter 0) (color 0 0 0 0)
     (uuid 18846966-8ffe-4d19-bba5-03c8a2a0a950)
   )
@@ -513,9 +511,6 @@
   )
   (junction (at 258.445 64.77) (diameter 0) (color 0 0 0 0)
     (uuid 9e9fef86-c82a-4ae6-97bb-5de167baacdb)
-  )
-  (junction (at 96.52 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid a4873f36-6530-4892-9ecc-f5f4902f14cc)
   )
   (junction (at 96.52 99.06) (diameter 0) (color 0 0 0 0)
     (uuid a54e14a4-0a35-4c08-986a-c3cf1740d441)
@@ -532,6 +527,8 @@
   (junction (at 258.445 99.06) (diameter 0) (color 0 0 0 0)
     (uuid e1e3f4b7-5ab1-4161-a28c-1293d2198cfe)
   )
+
+  (no_connect (at 120.65 91.44) (uuid c16f4aa3-49ba-4147-b21a-e51af154cc48))
 
   (wire (pts (xy 258.445 99.06) (xy 258.445 87.63))
     (stroke (width 0) (type default))
@@ -589,17 +586,13 @@
     (stroke (width 0) (type default))
     (uuid 452dd705-a977-407b-b99d-c6b2cc6becd3)
   )
-  (wire (pts (xy 96.52 80.01) (xy 96.52 99.06))
+  (wire (pts (xy 96.52 68.58) (xy 96.52 99.06))
     (stroke (width 0) (type default))
     (uuid 4ffd7a8e-4041-41db-bdb0-f5570448f0cc)
   )
   (wire (pts (xy 226.06 109.22) (xy 233.68 109.22))
     (stroke (width 0) (type default))
     (uuid 53546d62-bcb7-4b42-8fb8-22ea9365090f)
-  )
-  (wire (pts (xy 89.535 111.76) (xy 105.41 111.76))
-    (stroke (width 0) (type default))
-    (uuid 577b1f84-c621-4c54-871b-b39ec9fce270)
   )
   (wire (pts (xy 96.52 99.06) (xy 96.52 121.92))
     (stroke (width 0) (type default))
@@ -629,10 +622,6 @@
     (stroke (width 0) (type default))
     (uuid 70d07a0a-2bfa-4da7-9650-3eda164c0c20)
   )
-  (wire (pts (xy 120.65 91.44) (xy 105.41 91.44))
-    (stroke (width 0) (type default))
-    (uuid 81503c1d-b1ca-4556-9993-4cb833aabfc2)
-  )
   (wire (pts (xy 63.5 93.98) (xy 107.95 93.98))
     (stroke (width 0) (type default))
     (uuid 81f94693-3b94-4f3c-91d2-6a2553fa4f9f)
@@ -640,10 +629,6 @@
   (wire (pts (xy 258.445 40.005) (xy 258.445 53.34))
     (stroke (width 0) (type default))
     (uuid 83cdc7e9-84cf-416f-9043-7b7a11aefacb)
-  )
-  (wire (pts (xy 62.23 111.76) (xy 89.535 111.76))
-    (stroke (width 0) (type default))
-    (uuid 899728ad-e826-413a-b33b-b91e91bac565)
   )
   (wire (pts (xy 226.06 87.63) (xy 233.68 87.63))
     (stroke (width 0) (type default))
@@ -668,10 +653,6 @@
   (wire (pts (xy 241.3 64.77) (xy 248.285 64.77))
     (stroke (width 0) (type default))
     (uuid 93b715d0-cae0-4a1b-a0b6-32a1fb3503b1)
-  )
-  (wire (pts (xy 96.52 80.01) (xy 89.535 80.01))
-    (stroke (width 0) (type default))
-    (uuid 9a1e8b55-c605-4f10-b978-528ad584bd77)
   )
   (wire (pts (xy 258.445 129.54) (xy 255.905 129.54))
     (stroke (width 0) (type default))
@@ -705,10 +686,6 @@
     (stroke (width 0) (type default))
     (uuid bbdc68c7-50a5-452a-887e-b80055ad1157)
   )
-  (wire (pts (xy 105.41 91.44) (xy 105.41 111.76))
-    (stroke (width 0) (type default))
-    (uuid c18267c3-1ae8-4338-bfb3-5d56012a7e01)
-  )
   (wire (pts (xy 226.06 53.34) (xy 233.68 53.34))
     (stroke (width 0) (type default))
     (uuid ccfde623-60c0-46e1-9902-34c96dcba378)
@@ -717,14 +694,6 @@
     (stroke (width 0) (type default))
     (uuid d3f3fcd9-312c-4c2b-823e-b359b2c3f13f)
   )
-  (wire (pts (xy 96.52 68.58) (xy 96.52 80.01))
-    (stroke (width 0) (type default))
-    (uuid d6ba2cf9-2425-40e4-bf55-14f852fb501c)
-  )
-  (wire (pts (xy 89.535 80.01) (xy 89.535 100.33))
-    (stroke (width 0) (type default))
-    (uuid d90ea25d-bfcf-4f4a-8de1-ad4f6fac5de7)
-  )
   (wire (pts (xy 241.3 53.34) (xy 248.285 53.34))
     (stroke (width 0) (type default))
     (uuid dd0afbe2-87b9-46d1-9823-776704b22fe7)
@@ -732,10 +701,6 @@
   (wire (pts (xy 107.95 93.98) (xy 107.95 73.66))
     (stroke (width 0) (type default))
     (uuid ddc1e686-c723-40c0-ac29-30db7087a56c)
-  )
-  (wire (pts (xy 89.535 107.95) (xy 89.535 111.76))
-    (stroke (width 0) (type default))
-    (uuid de510dde-4950-43b3-9b44-f63e2b925142)
   )
   (wire (pts (xy 226.06 76.2) (xy 233.68 76.2))
     (stroke (width 0) (type default))
@@ -856,13 +821,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LED_RESET" (shape input) (at 62.23 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 67cf09be-635d-4a73-a30d-a7d2e3bd8e09)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 49.1644 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "LED8" (shape input) (at 226.06 129.54 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 68a6692b-6bde-4fc0-abf6-cbfe21b9d3fd)
@@ -965,7 +923,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ea65141-3dcf-4489-9028-27f756bf783f)
-    (property "Reference" "D8" (at 250.5075 92.71 0)
+    (property "Reference" "D7" (at 250.5075 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1460nm" (at 250.5075 95.25 0)
@@ -982,7 +940,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D8") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -991,7 +949,7 @@
   (symbol (lib_id "Device:R") (at 237.49 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2635c8f0-f7ca-4651-b9ad-0eca056ec380)
-    (property "Reference" "R22" (at 235.585 126.365 90)
+    (property "Reference" "R15" (at 235.585 126.365 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 126.365 90)
@@ -1008,7 +966,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R22") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1017,7 +975,7 @@
   (symbol (lib_id "TLC59208:TLC59208FIPWR") (at 118.11 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a52b823-23f1-4c7a-a79c-5b6b6cb96e52)
-    (property "Reference" "U4" (at 133.35 67.31 0)
+    (property "Reference" "U3" (at 133.35 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLC59208FIPWR" (at 133.35 69.85 0)
@@ -1114,7 +1072,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1123,7 +1081,7 @@
   (symbol (lib_id "Device:R") (at 237.49 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4008fa99-3130-46bb-adb1-c683da78fbea)
-    (property "Reference" "R16" (at 235.585 61.595 90)
+    (property "Reference" "R9" (at 235.585 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 61.595 90)
@@ -1140,7 +1098,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R16") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1149,7 +1107,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 182.88 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b8717db-e582-4386-aee9-357e73806431)
-    (property "Reference" "J5" (at 180.34 130.175 0)
+    (property "Reference" "J4" (at 180.34 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 180.34 132.715 0)
@@ -1168,33 +1126,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 89.535 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 58bb65ca-65ad-4c40-9289-5cb34b09cd28)
-    (property "Reference" "R14" (at 91.44 102.8699 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "1k" (at 91.44 105.4099 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 91.313 104.14 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 89.535 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 74e7993c-85da-401e-9686-043b3d9d91e1))
-    (pin "2" (uuid 01c1ffca-08aa-4f3d-8284-f3410d38a8d1))
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R14") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1203,7 +1135,7 @@
   (symbol (lib_id "Device:C") (at 96.52 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e8fd346-d1f3-451f-b550-8c486d0019dd)
-    (property "Reference" "C16" (at 88.9 123.19 0)
+    (property "Reference" "C14" (at 88.9 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 88.9 125.73 0)
@@ -1220,7 +1152,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "C16") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1229,7 +1161,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 788e9790-6712-4408-9cd8-bda39baf511b)
-    (property "Reference" "D9" (at 250.5075 102.87 0)
+    (property "Reference" "D8" (at 250.5075 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1550nm" (at 250.5075 105.41 0)
@@ -1246,7 +1178,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1255,7 +1187,7 @@
   (symbol (lib_id "power:GND") (at 114.3 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ec5d68c-eff3-4877-b075-4ecad8c8f20b)
-    (property "Reference" "#PWR010" (at 114.3 111.76 0)
+    (property "Reference" "#PWR016" (at 114.3 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 110.49 0)
@@ -1271,7 +1203,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1280,7 +1212,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f56debb-30f6-410f-9c19-79cb666f45ae)
-    (property "Reference" "D4" (at 250.5075 46.99 0)
+    (property "Reference" "D3" (at 250.5075 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "940nm" (at 250.5075 49.53 0)
@@ -1297,7 +1229,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1306,7 +1238,7 @@
   (symbol (lib_id "power:GND") (at 96.52 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92237677-662c-465f-a0e6-d8d723884a10)
-    (property "Reference" "#PWR028" (at 96.52 137.795 0)
+    (property "Reference" "#PWR015" (at 96.52 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 136.525 0)
@@ -1322,7 +1254,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1331,7 +1263,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94ee6830-0178-48f9-b727-f8c82c1f4a97)
-    (property "Reference" "D7" (at 250.5075 81.28 0)
+    (property "Reference" "D6" (at 250.5075 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1300nm" (at 250.5075 83.82 0)
@@ -1348,7 +1280,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1357,7 +1289,7 @@
   (symbol (lib_id "Device:R") (at 237.49 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b5e78e4-62c9-493d-8500-81b6faf2de2b)
-    (property "Reference" "R15" (at 235.585 50.165 90)
+    (property "Reference" "R8" (at 235.585 50.165 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 50.165 90)
@@ -1374,7 +1306,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R15") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1383,7 +1315,7 @@
   (symbol (lib_id "Device:R") (at 237.49 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a49a201b-4835-4b27-a879-df5727294b81)
-    (property "Reference" "R20" (at 235.585 106.045 90)
+    (property "Reference" "R13" (at 235.585 106.045 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 106.045 90)
@@ -1400,7 +1332,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R20") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1409,7 +1341,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae6de9b9-0550-4376-b49b-7259989631bc)
-    (property "Reference" "D11" (at 250.5075 123.19 0)
+    (property "Reference" "D10" (at 250.5075 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1720nm" (at 250.5075 125.73 0)
@@ -1426,7 +1358,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D11") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1435,7 +1367,7 @@
   (symbol (lib_id "power:+3.3V") (at 258.445 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afd8a72b-4a58-4167-a551-15d1a3583d2c)
-    (property "Reference" "#PWR030" (at 258.445 43.815 0)
+    (property "Reference" "#PWR018" (at 258.445 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 258.445 34.925 0)
@@ -1451,7 +1383,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1460,7 +1392,7 @@
   (symbol (lib_id "Device:R") (at 237.49 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb81e943-f626-44e4-b077-599e41a34be0)
-    (property "Reference" "R19" (at 235.585 95.885 90)
+    (property "Reference" "R12" (at 235.585 95.885 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 95.885 90)
@@ -1477,7 +1409,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R19") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1486,7 +1418,7 @@
   (symbol (lib_id "power:GND") (at 146.05 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdae894c-f625-4d02-8fb8-2c0705ccb689)
-    (property "Reference" "#PWR029" (at 146.05 111.125 0)
+    (property "Reference" "#PWR017" (at 146.05 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 109.855 0)
@@ -1502,7 +1434,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1511,7 +1443,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc16645b-47f5-4a9d-a523-9327722646b2)
-    (property "Reference" "D6" (at 250.5075 69.85 0)
+    (property "Reference" "D5" (at 250.5075 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1200nm" (at 250.5075 72.39 0)
@@ -1528,7 +1460,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1537,7 +1469,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 182.88 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3fa9a66-8e0a-4364-8238-683729a8afd6)
-    (property "Reference" "J4" (at 180.34 109.855 0)
+    (property "Reference" "J3" (at 180.34 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 180.34 112.395 0)
@@ -1556,7 +1488,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1565,7 +1497,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28cbf22-5710-443b-97ab-e217a61f55d9)
-    (property "Reference" "D5" (at 250.5075 58.42 0)
+    (property "Reference" "D4" (at 250.5075 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1050nm" (at 250.5075 60.96 0)
@@ -1582,7 +1514,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1591,7 +1523,7 @@
   (symbol (lib_id "Device:R") (at 237.49 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9cf1d33-e514-42ab-8b53-230d3ee6d939)
-    (property "Reference" "R21" (at 235.585 116.205 90)
+    (property "Reference" "R14" (at 235.585 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 116.205 90)
@@ -1608,7 +1540,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R21") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1617,7 +1549,7 @@
   (symbol (lib_id "Device:R") (at 237.49 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f339d811-6db6-4f6d-ab4f-71e15c85b0ac)
-    (property "Reference" "R17" (at 235.585 73.025 90)
+    (property "Reference" "R10" (at 235.585 73.025 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 73.025 90)
@@ -1634,7 +1566,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R17") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1643,7 +1575,7 @@
   (symbol (lib_id "power:+3.3V") (at 96.52 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa88dfc7-3db5-45b5-b84e-e8def18ec096)
-    (property "Reference" "#PWR027" (at 96.52 72.39 0)
+    (property "Reference" "#PWR014" (at 96.52 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 96.52 63.5 0)
@@ -1659,7 +1591,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1668,7 +1600,7 @@
   (symbol (lib_id "Device:R") (at 237.49 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdd321da-14e1-438f-9d09-27fc44b0dc20)
-    (property "Reference" "R18" (at 235.585 84.455 90)
+    (property "Reference" "R11" (at 235.585 84.455 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 240.03 84.455 90)
@@ -1685,7 +1617,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "R18") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1694,7 +1626,7 @@
   (symbol (lib_id "Device:LED") (at 252.095 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe39a524-14c7-41ec-a7f2-76908160e9b0)
-    (property "Reference" "D10" (at 250.5075 113.03 0)
+    (property "Reference" "D9" (at 250.5075 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1650nm" (at 250.5075 115.57 0)
@@ -1711,7 +1643,7 @@
     (instances
       (project "PCB KiCad"
         (path "/a818e058-3544-4da8-96fb-1a428660711f/2f10b7a1-df61-45b4-9fd1-1ebf21b41a15"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
