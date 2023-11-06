@@ -368,7 +368,6 @@
   )
 
   (bus_alias "BUS1" (members "CLK" "MOSI" "MISO" "CS"))
-
   (junction (at 99.06 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 0e5fb020-78d5-4923-908a-0e76aecd46eb)
   )
