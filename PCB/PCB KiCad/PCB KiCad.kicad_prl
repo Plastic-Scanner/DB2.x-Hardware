@@ -12,7 +12,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.6000000238418579
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -63,7 +63,7 @@
       35,
       36
     ],
-    "visible_layers": "8005f34_ffffffff",
+    "visible_layers": "8005f30_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
